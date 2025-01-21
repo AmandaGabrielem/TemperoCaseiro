@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root {
+    --fonte-primaria: "Sarala", serif;
+    --fonte-titulo: "Righteous", serif;
+    
+    --cor-titulo: #FFF2E7;
+    --cor-texto: #ECD6C4;
+    --cor-divisao-cardapio: #E8AA02;
+    --cor-fonte-botao: #2F2325;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #E85A00 40.02%, #FFDE00 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logo {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-titulo);
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    text-align: center;
+}
+
+.conteudo-texto {
+    font-family: var(--cor-texto);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-texto);
+    text-align: center;
+}
+
+.conteudo-principal-botao {
+    background-color: var(--cor-texto);
+    width: 185px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-fonte-botao);
+    margin-left: 400px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+    height: 450px;
+    margin-top: 45px;
+    margin-right: 55px;
+    border-radius: 20px;
+}
+
+.rodape {
+   padding: 50px;
+   border-top: 0.4px solid var(--cor-texto);
+}
+
+.rodape-funcionamento-desenvolvimento {
+    padding: auto;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 15px;
+    color: var(--cor-titulo);
+    
+}
